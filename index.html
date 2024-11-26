@@ -1,802 +1,138 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Charity Donation System</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-	<!-- CSS here -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="assets/css/themify-icons.css">
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<meta charset="utf-8">
+	<title>Charity</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+	<!-- Font Awesome CSS-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Normalize/Reset CSS-->
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area">
-            <div class="main-header ">
-                <div class="header-top d-none d-lg-block">
-                    <div class="container-fluid">
-                        <div class="col-xl-12">
-                            <div class="row d-flex justify-content-between align-items-center">
-                                <div class="header-info-left d-flex">
-                                    <ul>     
-                                        <li>Phone: +2550626837012</li>
-                                        <li>Email: abbakariamali@gmail.com</li>
-                                    </ul>
-                                    <div class="header-social">    
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="header-info-right d-flex align-items-center">
-                                    <div class="select-this">
-                                        <form action="#">
-                                            <div class="select-itms">
-                                                <select name="select" id="select1">
-                                                    <option value="">English</option>
-                                                    <option value="">Swahili</option>
-                                                    <option value="">Bangla</option>
-                                                    <option value="">Arabic</option>
-                                                    <option value="">Hindi</option>
-                                                </select>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <ul class="contact-now">     
-                                        <li><a href="#">Subscribe Now</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-10 col-lg-10">
-                                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
-                                    <!-- Main-menu -->
-                                    <div class="main-menu d-none d-lg-block">
-                                        <nav>
-                                            <ul id="navigation">                                                                                          
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="program.html">latest causes</a></li>
-                                                <li><a href="events.html">social events </a></li>
-                                                <li><a href="blog.html">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <!-- Header-btn -->
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Donate</a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header End -->
-    </header>
-    <!-- header end -->
-    <main>
-    <!-- slider Area Start-->
-    <div class="slider-area">
-        <div class="slider-active">
-            <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
-                            <div class="hero__caption">
-                                <h1 data-animation="fadeInUp" data-delay=".6s">Our Helping to<br> the world.</h1>
-                                <P data-animation="fadeInUp" data-delay=".8s" >We have emerged with the aim of providing assistance to all those in need within our communities to ensure we bring about development,peace and happiness in society.</P>
-                                <!-- Hero-btn -->
-                                <div class="hero__btn">
-                                    <a href="contact.html" class="btn hero-btn mb-10"  data-animation="fadeInLeft" data-delay=".8s">Donate</a>
-                                    <a href="contact.html" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
-                                        <i class="flaticon-null"></i>
-                                        <p>+255 0742710426</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
-                            <div class="hero__caption">
-                                <h1 data-animation="fadeInUp" data-delay=".6s">Our Helping to<br> the world.</h1>
-                                <P data-animation="fadeInUp" data-delay=".8s" > We are standing out to save and provide the basic needs and other assistance to those in need in our societies. .</P>
-                                <!-- Hero-btn -->
-                                <div class="hero__btn">
-                                    <a href="contact.html" class="btn hero-btn mb-10"  >donation</a>
-                                    <a href="contact.html" class="cal-btn ml-15" ">donation
-                                        <i class="flaticon-null"></i>
-                                        <p>+255 0742710426</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- slider Area End-->
-    <!--? Services Area Start -->
-    <div class="service-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <span>What we are doing</span>
-                        <h2>We Are In A Mission To Help The Helpless</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-null-1"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="services.html">Clean Water</a></h5>
-                            <p>Clean water is seems as the basic need that must be provided,since most of people in the society the failed to affoard according to the environment and money support.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat active text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-think"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="services.html"> Healthly Food</a></h5>
-                            <p>Food also is seems as the basic need that must be provided,since most of people in the society the failed to affoard according to the environment and money support.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-gear"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="services.html">Clothes</a></h5>
-                            <p>Clothes is seems as the basic need that must be provided,since most of people in the society the failed to affoard according to the money support.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Services Area End -->
-    <!--? About Law Start-->
-    <section class="about-low-area section-padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="about-caption mb-50">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-35">
-                            <span>Join us Make better tomorrow</span>
-                            <h2>We Are In A Mission To  Help Helpless</h2>
-                        </div>
-                        <p>Our call to the public is to support our brothers and sisters in the community.</p>
-                        <p>The assistance provided is for all people in need within the entire community, regardless of race, religion, or tribe.</p>
-                    </div>
-                    <a href="about.html" class="btn">About US</a>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <!-- about-img -->
-                    <div class="about-img ">
-                        <div class="about-font-img d-none d-lg-block">
-                            <img src="assets/img/gallery/about2.png" alt="">
-                        </div>
-                        <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Law End-->
-    <!-- Our Cases Start -->
-    <div class="our-cases-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <span>Our Cases you can see</span>
-                        <h2>Explore our latest causes that we works </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/case1.png" alt="">
-                        </div>
-                        <div class="cases-caption">
-                            <h3><a href="#">Ensure Education For Every Poor Children</a></h3>
-                            <!-- Progress Bar -->
-                            <div class="single-skill mb-15">
-                                <div class="bar-progress">
-                                    <div id="bar1" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="30"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- / progress -->
-                            <div class="prices d-flex justify-content-between">
-                                <p>Raised:<span> $10,000</span></p>
-                                <p>Goal:<span> $35,000</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/case2.png" alt="">
-                        </div>
-                        <div class="cases-caption">
-                            <h3><a href="#">Providing Healthy Food For The Children</a></h3>
-                            <!-- Progress Bar -->
-                            <div class="single-skill mb-15">
-                                <div class="bar-progress">
-                                    <div id="bar2" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="25"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- / progress -->
-                            <div class="prices d-flex justify-content-between">
-                                <p>Raised:<span> $20,000</span></p>
-                                <p>Goal:<span> $55,000</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/case3.png" alt="">
-                        </div>
-                        <div class="cases-caption">
-                            <h3><a href="#">Supply Drinking Water For  The People</a></h3>
-                            <!-- Progress Bar -->
-                            <div class="single-skill mb-15">
-                                <div class="bar-progress">
-                                    <div id="bar3" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="70"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- / progress -->
-                            <div class="prices d-flex justify-content-between">
-                                <p>Raised:<span> $10,000</span></p>
-                                <p>Goal:<span> $45,000</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Cases End -->
-    <!-- Featured_job_start -->
-    <section class="featured-job-area section-padding30 section-bg2" data-background="assets/img/gallery/section_bg03.png">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <span>What we are boing</span>
-                        <h2>We arrange many social events for charity donations</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-9 col-md-12">
-                    <!-- single-job-content -->
-                    <div class="single-job-items mb-30">
-                        <div class="job-items">
-                            <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
-                            </div>
-                            <div class="job-tittle">
-                                <a href="#"><h4>Donation is Hope</h4></a>
-                                <ul>
-                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <!-- single-job-content -->
-                    <div class="single-job-items mb-30">
-                        <div class="job-items">
-                            <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
-                            </div>
-                            <div class="job-tittle">
-                                <a href="#"><h4>A hand for Children</h4></a>
-                                <ul>
-                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-12">
-                    <!-- single-job-content -->
-                    <div class="single-job-items mb-30">
-                        <div class="job-items">
-                            <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
-                            </div>
-                            <div class="job-tittle">
-                                <a href="#"><h4>Help for Children</h4></a>
-                                <ul>
-                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                    <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Featured_job_end -->
-    <!--? Team Ara Start -->
-    <div class="team-area pt-160 pb-160">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle section-tittle2 text-center mb-70">
-                        <span>What we are doing</span>
-                        <h2>Our Expert Volunteer Always ready</h2>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/amary3.jpg" alt="">
-                            <!-- Blog Social -->
-                            <ul class="team-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="instructor.html">Amali Abbakari</a></h3>
-                            <p>Volunteer leader</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
-                            <!-- Blog Social -->
-                            <ul class="team-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="instructor.html">Robart Rechard</a></h3>
-                            <p>Volunteer leader</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/amary2.jpg" alt="">
-                            <!-- Blog Social -->
-                            <ul class="team-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="instructor.html">Teamwork</a></h3>
-                            <p>Volunteer leaders</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team4.png" alt="">
-                            <!-- Blog Social -->
-                            <ul class="team-social">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="instructor.html">Walshr Hasgt</a></h3>
-                            <p>Volunteer leader</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team Ara End -->
-    <!-- Want To work -->
-    <section class="wantToWork-area ">
-        <div class="container">
-            <div class="wants-wrapper w-padding2  section-bg" data-background="assets/img/gallery/section_bg01.png">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-5 col-lg-9 col-md-8">
-                        <div class="wantToWork-caption wantToWork-caption2">
-                            <h2>Lets Chenge The World With Humanity</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4">
-                        <a href="#" class="btn white-btn f-right sm-left">Become A Volunteer</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Want To work End -->
-    <!--? Testimonial Start -->
-    <div class="testimonial-area testimonial-padding">
-        <div class="container">
-            <!-- Testimonial contents -->
-            <div class="row d-flex justify-content-center">
-                <div class="col-xl-8 col-lg-8 col-md-10">
-                    <div class="h1-testimonial-active dot-style">
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-caption ">
-                                <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/amary3.jpg" alt=""heigth="400" width="355">
-                                        <span>Amali Abbakari</span>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-caption ">
-                                <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Amali Abbakari</span>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-caption ">
-                                <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-    <!--? Blog Area Start -->
-    <section class="home-blog-area section-padding30">
-        <div class="container">
-            <!-- Section Tittle -->
-            <div class="row justify-content-center">
-                <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
-                    <div class="section-tittle text-center mb-90">
-                        <span>Our recent blog</span>
-                        <h2>Latest News from our recent blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog1.png" alt="">
-                                <!-- Blog date -->
-                                <div class="blog-date text-center">
-                                    <span>24</span>
-                                    <p>Now</p>
-                                </div>
-                            </div>
-                            <div class="blog-cap">
-                                <p>Creative derector</p>
-                                <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="home-blog-single mb-30">
-                        <div class="blog-img-cap">
-                            <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog2.png" alt="">
-                                <!-- Blog date -->
-                                <div class="blog-date text-center">
-                                    <span>24</span>
-                                    <p>Now</p>
-                                </div>
-                            </div>
-                            <div class="blog-cap">
-                                <p>Creative derector</p>
-                                <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Blog Area End -->
-    <!--? Count Down Start -->
-    <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 col-md-12">
-                    <div class="count-down-wrapper" >
-                        <div class="row justify-content-between">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <!-- Counter Up -->
-                                <div class="single-counter text-center">
-                                    <span class="counter color-green">6,200</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <!-- Counter Up -->
-                                <div class="single-counter text-center">
-                                    <span class="counter color-green">80</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Fund Raised</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <!-- Counter Up -->
-                                <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <!-- Counter Up -->
-                                <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Count Down End -->
-    </main>
-    <footer>
-        <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
-            <!-- Footer Top-->
-            <div class="footer-area footer-padding">
-                <div class="container">
-                    <div class="row d-flex justify-content-between">
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="single-footer-caption mb-30">
-                                <div class="footer-tittle">
-                                    <div class="footer-logo mb-20">
-                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Contact Info</h4>
-                                    <ul>
-                                        <li>
-                                            <p>Address :Your address goes here, your demo address.</p>
-                                        </li>
-                                        <li><a href="#">Phone : +2550626837012</a></li>
-                                        <li><a href="#">Email : abbakariamali@gmail.com</a></li>
-                                    </ul>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Important Link</h4>
-                                    <ul>
-                                        <li><a href="#"> View Project</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Testimonial</a></li>
-                                        <li><a href="#">Proparties</a></li>
-                                        <li><a href="#">Support</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Newsletter</h4>
-                                    <div class="footer-pera footer-pera2">
-                                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
-                                </div>
-                                <!-- Form -->
-                                <div class="footer-form" >
-                                    <div id="mc_embed_signup">
-                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                        method="get" class="subscribe_form relative mail_part">
-                                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                            class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = ' Email Address '">
-                                            <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit"
-                                                class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
-                                            </div>
-                                            <div class="mt-10 info"></div>
-                                        </form>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- footer-bottom -->
-            <div class="footer-bottom-area">
-                <div class="container">
-                    <div class="footer-border">
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <div class="col-xl-10 col-lg-9 ">
-                                <div class="footer-copy-right">
-                                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | donationamali.com<i class="fa fa-heart" aria-hidden="true"></i> by <a href="#" target="_blank">amaryzooh Company.com</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-lg-3">
-                                <div class="footer-social f-right">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fas fa-globe"></i></a>
-                                    <a href="#"><i class="fab fa-behance"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<body id="welcome">
+<aside class="left-sidebar">
+<div class="logo">
+	<a href="#welcome">
+		<h1>Charity</h1>
+	</a>
+</div>
+<nav class="left-nav">
+	<ul id="nav">
+		<li class="current"><a href="#welcome">Welcome</a></li>
+		<li><a href="#installation">Installation</a></li>
+		<li><a href="#tmpl-structure">Structure</a></li>
+		<li><a href="#css-structure">CSS Files</a></li>
+		<li><a href="#javascript">JavaScript Libraries</a></li>
+		<li><a href="#contact-form">Contact Form</a></li>
+		<li><a href="#subscription-form">Subscription Form</a></li>
+		<li><a href="#video">Video Tutorial</a></li>
+		<li><a href="#credit">Source and Credit</a></li>
+	</ul>
+</nav>
+</aside>
+<!-- Main Wrapper -->
+<div id="main-wrapper">
+<div class="main-content">
+	<section id="welcome">
+		<div class="content-header">
+			<h1>Charity</h1>
+		</div>
+		<div class="welcome">
+			<h2 class="twenty">Welcome To Charity</h2>
+			<p>Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!</p>
+			<p>This document covers the installation and use of this theme and often reveals answers to common problems and issues - read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document. Thank you so much!</p>
+		</div>
+		<div class="features">
+			<h2 class="twenty">Template Features</h2>
+			<ul>
+				<li>Clean &amp; Simple Design</li>
+				<li>HTML5 &amp; CSS3</li>
+				<li>Fully Responsive Design</li>
+				<li>PHP/Ajax Powered Working Contact Form</li>
+				<li>All files are well commented</li>
+				<li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, Chrome</li>
+				<li>Extensive Documentation</li>
+			</ul>
+		</div>
+	</section>
+	<section id="installation">
+		<div class="content-header">
+			<h1>Charity</h1>
+		</div>
+		<h2 class="title">Installing Template.</h2>
+		<div class="section-content">
+			<ol>
+				<li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
+				<li>You can view this Template in any browser, you can display or edit the Template without an internet connection.(May not wotrk fonts and google map).</li>
+				<li>The only section that will not work is the Contact Section which contains PHP code and requires a server environment for send messages.</li>
+				<li>Now go to your cpanel or open your FTP Client (like <a target="_blank" href="https://filezilla-project.org/download.php">Filezilla</a>) and upload the content of the Template on your server root.</li>
+				<li>Once the files are done uploading go to www.yourdomainname.com/index.html</li>
+			</ol>
+		</div>
+	</section>
+	<section id="tmpl-structure">
+		<h2 class="title">Template Structure</h2>
+		<p class="fifteen">All information within the main content area is nested within a body tag. The general template structure is pretty the same throughout the template. Here is the general structure of main page (index.html).</p>
+		<pre class="brush: html">
 
-    <!-- Scroll Up -->
-    <div id="back-top" >
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-    </div>
+			<header class="header_area"></header>
+				<main class="site-main">
+					<section class="section"></section>
+					<section class="section"></section>
+					<section class="section"></section>
+				</main>
+			<footer class="footer"></footer>
 
+		</pre>
+	</section>
+	<section id="css-structure">
+		<h2 class="title">CSS Files and Structure</h2>
+		<p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
+		<pre class="brush: html">
+		
+		<!-- CSS here -->
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/slicknav.css">
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+		<link rel="stylesheet" href="assets/css/gijgo.css">
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/animated-headline.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="assets/css/themify-icons.css">
+		<link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+				
+		</pre>
+
+		<h2 class="title">Google Web Fonts</h2>
+		<p>By default, the template loads this font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+		<pre class="brush:html">		                
+		<!-- Google Font -->
+		
+		<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap"> 
+
+		</pre>
+
+		<p class="twenty">Remember to change the font into <strong>style.css</strong></p>
+	</section>
+	<section id="javascript">
+		<h2 class="title">Javascript Files and Structure</h2>
+		<p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the <strong>Body Section</strong>.
+		<pre class="brush: html">
+
+	
     <!-- JS here -->
 
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -839,6 +175,86 @@
     <!-- Jquery Plugins, main Jquery -->	
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-    
-    </body>
+		
+		</pre>
+	</section>
+
+	<section id="contact-form">
+			<h2 class="title"> Contact Form </h2>
+			<p>This is a PHP Script for sending messages to your email, you should replace <strong>demo@site.com</strong> to your email to start receive messages.</p>
+			<pre class="brush:php">
+				$to = 'demo@site.com'; // replace this mail with yours
+				$firstname = $_POST["fname"];
+				$email= $_POST["email"];
+				$headers = 'MIME-Version: 1.0' . "\r\n";
+				$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+				$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+				$message ='<table style="width:100%">
+					<tr>
+						<td>'.$firstname.'  '.$laststname.'</td>
+					</tr>
+					<tr><td>Email: '.$email.'</td></tr>
+				</table>';
+
+				if (@mail($to, $email, $message, $headers))
+				{
+					echo 'The message has been sent.';
+				}else{
+				echo 'failed';
+			}
+		</pre>		            
+	</section>
+	<section id="subscription-form">
+		<h2 class="title"> Subscription Form </h2>
+		<p>Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".</p>
+		<pre class="brush: javascript">
+			<div id="mc_embed_signup">
+				//Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+				<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center"></form>
+			</div>
+		</pre>		            
+	</section>
+	<section id="video">
+		<h2 class="title"> Video Tutorial </h2>
+		<!-- 21:9 aspect ratio -->
+		<div class="embed-responsive embed-responsive-21by9">
+			<iframe class="embed-responsive-item" width="100%" height="515" src="https://www.youtube.com/embed/i7_PRPLOxVE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		</div>	            
+	</section>
+	<section id="credit">
+		<h2 class="title">Source and Credit</h2>		            
+		<div class="script-source">
+			<ul>
+				<li><a target="_blank" href="http://www.pexels.com">Pexels</a></li>
+				<li><a target="_blank" href="http://jquery.com/">jQuery</a></li>
+				<li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
+				<li><a target="_blank" href="https://dimsemenov.com/plugins/magnific-popup/">magnific popup</a></li>
+				<li><a target="_blank" href="https://masonry.desandro.com/">masonry</a></li>
+				<li><a target="_blank" href="https://www.flaticon.com/home">flaticon</a></li>
+				<li><a target="_blank" href="http://www.owlgraphic.com/owlcarousel">Owl Carousel</a></li>
+				<li><a target="_blank" href="https://github.com/iamMonzurul/jQuery-AJAX-MailChimp">Ajax Mailchimp</a></li>
+				<li><a target="_blank" href="http://fontawesome.io/">FontAwesome</a></li>
+				<li><a target="_blank" href="https://themify.me/themify-icons">Themify Icons</a></li>
+			</ul>
+		</div>
+	</section>
+</div>
+</div>
+
+<!-- Essential JavaScript Libraries
+	==============================================-->
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
 </html>
